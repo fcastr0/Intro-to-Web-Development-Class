@@ -11,3 +11,6 @@ git push is the user end to update
 
 git stash to not delete your files hosted locally 
 
+css animation is the one to make my website -> look into recurssion 
+
+used w3 for css and how to get the ids so i can individually style them 
