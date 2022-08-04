@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Air Quality</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main-container"></div>
+        <div id="essay">
+            <h1>
+                How Has Air Quality Changed in NYC? 
+            </h1>
+            <p>
+                With the rise of  climate change affecting the Earth, one area that often gets overlooked is the air we breathe. Using New York's Open Data, the ACS database, Census data, and a plethora of other sources, we can see how particulate matter affects the five boroughs of New York. Particulate matter, specifically particulate mater that has a diameter smaller than 2.5 microns, can be detrimental at high concentrations and cause adverse health affects if exposed for too long.
+                Some of the health risks assocatiated with high levels to PM2.5 include, but are not limited to:
+                <ul id="list">
+                    <li> Increased hospital admissions for heart or lung causes</li>
+                    <li>Acute and chronic bronchitis</li>
+                    <li>asthma attacks</li>
+                    <li>emergency room visits</li>
+                    <li>respiratory symptoms</li>
+                    <li>restricted acitivity days</li>
+                </ul>
+                <img src="../data/hair.png" alt="size comparison" width="450px" id="picture">
+            </p>
+            <p>
+                New York City has implemented several programs to monitor, record, and visualize to see if these small particles are indeed being reduced. City officials have implemented stringent air quality regulations which are said to help lower levels of P.M2.5 
+                To my surprise, these programs are indeed reducing P.M2.5 levels, although not enough to reduce the associated health risks of inhaling polluted air. New York is taking strides in reducing air pollution but the data shows that more can be done. We will discuss the major contributors to P.M2.5 in this study and see which neighborhoods are most affected.
+            </p>
+            <p>
+                According to <a href="https://gothamist.com/news/new-york-citys-air-quality-is-improving-but-it-still-isnt-healthy-enough">this
+                gothamist news article</a>, air quality is improving in New York City, although at a slow rate and at a rate in which the 
+                <a href="https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health">WHO</a> still
+                deems dangerous. 
+            </p>
+        </div>
+        
+        <div id="d3-container">
+        </div> 
+
+        <div id="conclusion">
+            <p>
+                This data can be used to show elected officials to gather funds to develop more air monitoring stations, especially for south Brooklyn, Staten Island, and eastern Queens, since these areas are where there seems to be little to no air monitors. We see that Manhattan is affected the most, which makes sense since the main contributors to P.M2.5 are broilers, traffic, and a dense city population.
+            </p>
+        </div>
+    
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+
+</html>
