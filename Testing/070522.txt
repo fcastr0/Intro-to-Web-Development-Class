@@ -1,0 +1,3 @@
+span.div makes it to look inside that given span
+
+span .div nakes it to look inside a div with the class that is class of x 

@@ -1,0 +1,13 @@
+pwd 
+
+ls list documents
+cd change directory 
+cd.. go back a folder  
+mkdir makes a new folder
+
+git clone is the command we need for refreshing our files 
+git pull is getting the refreshed page 
+git push is the user end to update 
+
+git stash to not delete your files hosted locally 
+
